@@ -1,7 +1,10 @@
 #include"GameLogic.h"
 
-
-
+/*TODO LIST
+>> Stop players to not overwrite each others position 
+>> Allow players to choose how many round they want 
+>> Play against AI(<<)
+*/
 void Tictactoe::ShowCurrentBoard() {
 	for (int x{ 0 }; x < 3; x++) {
 		for (int y{ 0 }; y < 3; y++) {
